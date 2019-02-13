@@ -1,10 +1,10 @@
 ---
-title:  "I scream"
-subtitle: "But do you scream?"
-author: "Wferr"
-avatar: "img/authors/wferr.png"
-image: "img/e.jpg"
-date:   2015-04-24 12:12:12
+title:  "JavaFX를 이용한 상용구프로그램"
+subtitle: "Java"
+author: "sejin"
+avatar: "img/authors/jin.png"
+image: "img/QuickType(java).png"
+date:   2015-04-25 12:12:12
 ---
 
 ### Dolor sit amet?

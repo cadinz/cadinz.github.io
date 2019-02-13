@@ -1,9 +1,9 @@
 ---
-title:  "A Craftsman Workshop"
-subtitle: "It's always a bit messy"
-author: "Wferr"
-avatar: "img/authors/wferr.png"
-image: "img/f.jpg"
+title:  "AHK를 이용한 상용구프로그램"
+subtitle: "AHK"
+author: "sejin"
+avatar: "img/authors/jin.png"
+image: "img/QuickType(ahk).png"
 date:   2015-04-25 12:12:12
 ---
 
