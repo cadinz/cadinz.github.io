@@ -14,7 +14,9 @@ layout: compress
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
-    <link rel="stylesheet" type="text/css" href="css/modern-blog.css"/>
+    <link rel="stylesheet" type="text/css" href="css/modern-blog2.css" />
+	<link rel="stylesheet" type="text/css" href="css/card.css" />
+	<link rel="stylesheet" type="text/css" href="css/pattern.css" />
     <!--[if IE]>
     <script type="text/javascript" src="js/vendors/html5.min.js"></script>
     <![endif]-->
@@ -25,9 +27,9 @@ layout: compress
         }
     </script>
 </head>
-<body class="body">
+<body class="demo-1">
 <div class="container">
-    <header class="header">
+    <header class="codrops-header">
         <h1>PORTFOLIO<span>Project List</span></h1>
         <nav class="links">
             <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
@@ -45,14 +47,15 @@ layout: compress
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
                          preserveAspectRatio="xMidYMid slice">
                         <defs>
                             <clipPath id="{{ post.id }}-clip-path">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+                                <!-- <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon> -->
                             </clipPath>
                         </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="500"
                                xlink:href="{{ post.image }}"></image>
                     </svg>
                     <div class="card__content">
@@ -78,12 +81,15 @@ layout: compress
     </div>
     <!-- /container -->
 </div>
+
+
 <!-- JS -->
+
 <script src="js/vendors/trianglify.min.js"></script>
 <script src="js/vendors/TweenMax.min.js"></script>
 <script src="js/vendors/ScrollToPlugin.min.js"></script>
 <script src="js/vendors/cash.min.js"></script>
-<script src="js/card-modern-blog.js"></script>
-<script src="js/modern-blog.js"></script>
+<script src="js/Card-circle.js"></script>
+<script src="js/modern-blog2.js"></script>
 </body>
 </html>
