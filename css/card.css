@@ -91,6 +91,7 @@
 .card__subtitle {
 	font-size: .95em;
 	line-height: 1;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 	margin: 5px 0 0;
 	color: #777778;
 }
