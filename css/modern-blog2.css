@@ -28,6 +28,8 @@ body {
 	line-height: 1.5;
 	color: #3b393d;
 	background: #f0f0f0;
+	/* background: rgb(43, 43, 43); */
+
 	background-size: cover;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
