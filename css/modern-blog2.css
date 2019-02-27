@@ -43,7 +43,7 @@ body.body--hidden {
 
 body.body--hidden .codrops-header,
 body.body--hidden .content--related {
-	opacity: 0;
+	opacity: 100;
 }
 
 .codrops-header,
@@ -182,21 +182,34 @@ a:focus {
 /* Content */
 
 .content {
-	padding: 1em 0 4em;
+	padding: 1em 0 3em;
 }
 /* Related demos */
 
 .content--related {
 	font-weight: bold;
 	text-align: center;
+	
 }
 
 .media-item {
-	display: inline-block;
-	padding: 1em;
-	vertical-align: top;
-	-webkit-transition: color .3s;
-	transition: color .3s;
+		position: relative;
+		color: inherit;
+		background: #fff;
+		min-height: 200px;
+		cursor: pointer;
+		text-align: center;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-direction: normal;
+		-webkit-box-orient: vertical;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-justify-content: center;
+		justify-content: center;
 }
 
 .media-item__img {
@@ -225,6 +238,26 @@ a:focus {
 	max-width: 1366px;
 	margin: 0 auto;
 }
+
+@media screen and (min-width: 900px){
+	.content--related {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.media-item {
+		width: 50%;
+		border: none;
+}
+}
+
 
 @media screen and (max-width: 50em) {
 	.codrops-header {

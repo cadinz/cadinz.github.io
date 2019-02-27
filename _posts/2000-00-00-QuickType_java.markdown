@@ -22,7 +22,7 @@ date:   1011-10-01 01:10:01
 그때 사용했었던 AHK를 사용하지않고 자바를 사용하여 다른 OS에서도 같은 기능을 하는 프로그램을 만들어보고 싶었고 고등학생때 만들었던 프로그램을 다시 만든다는것에 뜻을 가지고 다른언어로 만들어보았다. 
 
 <a href="https://www.autohotkey.com/" target="_blank">AHK</a>와는 다르게 다양한 OS에서 사용하능하게 하기 위해 자바를 사용하였다.
-네이티브 환경에 접근하기 위해 후킹을 필요로하여 <a href="https://github.com/kwhat/jnativehook" target="_blank">jnativehook</a>라이브러리를 사용하였다. 
+네이티브 환경에 접근하기 위해 글로벌후킹을 필요로하여 <a href="https://github.com/kwhat/jnativehook" target="_blank">jnativehook</a>라이브러리를 사용하였다. 
 
 Swing과 JavaFX중 고민하던중 최근 Swing을 사용하지 않았던 관계로 javaFX를 사용하여 제작하였다. 
 
