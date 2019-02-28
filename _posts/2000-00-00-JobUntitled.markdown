@@ -50,6 +50,7 @@ STT(Speech To Text)를 사용하기위해 여러가지 api 서비스들을 찾�
 
 ### 구성도
 ![ex](../img/structure.jpg)
+![ex](../img/coex.jpg)
 
 ### ETC
 사용한 툴 : Visual Studio Code, IntelliJ, Dbeaver, SourceTree, Scene Builder, Slack, Redmine
