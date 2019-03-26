@@ -30,6 +30,12 @@ date:   1011-10-01 01:10:02
 
 각 지역 정보에 대한 정보는 rest api의 형태로 Retrofit2를 이용하였다. 장소에 대한 내용이 url형식으로만 제공되었다.<a href="https://github.com/cadinz/Yanawha" target="_blank">EXAM</a> 이러한 URL만 제공되어 처음엔 URL을 파싱하여 사진등을 가지고올까 생각했으나 저작권문제로 webView를 통해 보여주기로 결정하였다.
 
+
+<a href="https://github.com/cadinz/Yanawha" target="_blank">github</a>
+<a href="https://play.google.com/store/apps/details?id=com.yanawha.osejin.yanawha" target="_blank">Play Store</a>
+
+
+
 - - -
 
 ### ETC
@@ -37,4 +43,3 @@ date:   1011-10-01 01:10:02
 사용한 툴 : android Studio, Visual Studio Code, Postman
 라이브러리 : kakao map, google place, 기타 UI라이브러리
 <br>
-<a href="https://github.com/cadinz/Yanawha" target="_blank">SOURCE</a>
