@@ -4,7 +4,7 @@ subtitle: "Java"
 author: "sejin"
 avatar: "img/authors/jin.png"
 image: "img/QuickType_java.png"
-date:   1011-10-01 01:10:01
+date:   1011-10-01 01:10:02
 ---
 
 ## ScreenShot
